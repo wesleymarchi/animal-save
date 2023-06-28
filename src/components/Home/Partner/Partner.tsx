@@ -15,9 +15,9 @@ const Partner = () => {
                         Conheça nossos parceiros
                     </p>
                     <div className="justify-content-center ps-5 text-center">
-                        <img src={UALogo} className="rounded-circle border border-warning mb-3 me-5 imageSize zoom" />
-                        <img src={MicrosoftLogo} className="rounded-circle border border-warning mb-3 me-5 imageSize zoom" />
-                        <img src={GitHubLogo} className="rounded-circle border border-warning mb-3 me-5 imageSize zoom" />
+                        <a href="https://uniamerica.br/" title="Uniamérica Descomplica"><img src={UALogo} className="rounded-circle border border-warning mb-3 me-5 imageSize zoom" /></a>
+                        <a href="https://www.microsoft.com/" title="Microsoft"><img src={MicrosoftLogo} className="rounded-circle border border-warning mb-3 me-5 imageSize zoom" /></a>
+                        <a href="https://github.com/" title="GitHub"><img src={GitHubLogo} className="rounded-circle border border-warning mb-3 me-5 imageSize zoom" /></a>
                     </div>
                 </div>
             </section>

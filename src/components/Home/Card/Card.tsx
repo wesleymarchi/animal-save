@@ -15,7 +15,7 @@ const Card = () => {
                 </p>
                 <div className="card-group shadow-lg">
                     <div className="card border border-warning cardSize">
-                        <img src={BannerAdote} className="card-img-top zoom" alt="Cadastre-se" />
+                        <img src={BannerAdote} className="card-img-top" alt="Cadastre-se" />
                         <div className="card-body shadow-lg">
                             <h5 className="card-title text-center">ADOTE</h5>
                             <p className="card-text">
@@ -24,7 +24,7 @@ const Card = () => {
                         </div>
                     </div>
                     <div className="card border-top border-bottom border-warning cardSize">
-                        <img src={BannerDogFunny} className="card-img-top zoom" alt="Palm Springs Road" />
+                        <img src={BannerDogFunny} className="card-img-top" alt="Palm Springs Road" />
                         <div className="card-body shadow-lg">
                             <h5 className="card-title text-center">SEJA UM ASSOCIADO</h5>
                             <p className="card-text">
@@ -33,7 +33,7 @@ const Card = () => {
                         </div>
                     </div>
                     <div className="card border-top border-bottom border-warning cardSize">
-                        <img src={BannerDog} className="card-img-top zoom" alt="Palm Springs Road" />
+                        <img src={BannerDog} className="card-img-top" alt="Palm Springs Road" />
                         <div className="card-body shadow-lg">
                             <h5 className="card-title text-center">PROTEJA</h5>
                             <p className="card-text">
