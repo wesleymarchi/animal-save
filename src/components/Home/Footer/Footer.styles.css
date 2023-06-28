@@ -39,3 +39,13 @@ p.titlePet {
     height: 207px;
     object-fit: cover;
 }
+
+span.heartFooter {
+    color: #FFC60F !important;
+}
+
+.imageSizeFooter {
+    width: 29px;
+    height: 29px;
+    object-fit: contain;
+}

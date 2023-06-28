@@ -6,7 +6,7 @@ import UserList from "../UserList/UserList";
 import Header from "./Header/Header";
 import Carousel from "./Carousel/Carousel";
 import Content from "./Content/Content";
-import MapFrame from "./MapFrame/MapFrame";
+import Footer from "./Footer/Footer";
 
 const Home = () => {
     const [userList, setUserList] = useState(dummyUserList as IUser[]);
@@ -16,6 +16,7 @@ const Home = () => {
             <Header />
             <Carousel />
             <Content />
+            <Footer />
         </>
     );
 };

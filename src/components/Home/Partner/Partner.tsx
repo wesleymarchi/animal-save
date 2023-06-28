@@ -20,6 +20,7 @@ const Partner = () => {
                         <a href="https://github.com/" title="GitHub"><img src={GitHubLogo} className="rounded-circle border border-2 border-warning mb-3 me-5 imageSize zoom" /></a>
                     </div>
                 </div>
+                <hr className="mb-0 mt-5 pt-5" />
             </section>
         </>
     );
