@@ -6,7 +6,7 @@ import UserList from "../UserList/UserList";
 import Header from "./Header/Header";
 import Carousel from "./Carousel/Carousel";
 import Content from "./Content/Content";
-import Map from "./Map/Map";
+import MapFrame from "./MapFrame/MapFrame";
 
 const Home = () => {
     const [userList, setUserList] = useState(dummyUserList as IUser[]);
