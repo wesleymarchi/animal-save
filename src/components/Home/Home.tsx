@@ -7,16 +7,14 @@ import Header from "./Header/Header";
 import Carousel from "./Carousel/Carousel";
 import Content from "./Content/Content";
 import Footer from "./Footer/Footer";
+import SideBar from "../SideBar/SideBar";
 
 const Home = () => {
     const [userList, setUserList] = useState(dummyUserList as IUser[]);
 
     return (
         <>
-            <Header />
-            <Carousel />
-            <Content />
-            <Footer />
+            <SideBar />
         </>
     );
 };
