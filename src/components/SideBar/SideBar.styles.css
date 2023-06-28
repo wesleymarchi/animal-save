@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
 
 .sideBar {
+    background-image: url("../../assets/paws.png");
     background-color: #FFC60F;
 }
 

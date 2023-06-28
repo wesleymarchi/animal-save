@@ -35,7 +35,7 @@ const Header = () => {
                                     <a className="nav-link">Blog</a>
                                 </li>
                                 <li className="nav-item zoom">
-                                    <a className="nav-link">Login</a>
+                                    <a className="nav-link btn btn-outline rounded-1 border border-1 px-2 active">Login</a>
                                 </li>
                             </ul>
                         </div>
