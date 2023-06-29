@@ -11,7 +11,7 @@ h4, h5, p {
     object-fit: cover;
 }
 
-body,.backgroundImage {
+body, .backgroundImage {
     background-color: #ffc70f1e;
     /*opacity: 0.8;*/
 }
