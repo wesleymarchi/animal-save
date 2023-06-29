@@ -1,6 +1,6 @@
 # FRONTEND ANIMAL SAVE
 
-Landing page para uma entidade de auxilio para animais em situação de abandono.
+Projeto em equipe, landing page para uma entidade de auxilio aos animais em situação de abandono.
 Foi utilizado: <br /> 
 - [x] HTML
 - [x] CSS
