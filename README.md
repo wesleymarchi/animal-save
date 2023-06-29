@@ -4,6 +4,7 @@ Landing page para uma entidade de auxilio para animais em situação de abandono
 Foi utilizado: <br /> 
 - [x] HTML
 - [x] CSS
+- [x] BootStrap
 - [x] React
 - [x] TypeScript
 
