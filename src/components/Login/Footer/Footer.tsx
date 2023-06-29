@@ -3,15 +3,12 @@ import "bootstrap/dist/js/bootstrap.min.js";
 import "./Footer.styles.css";
 import Instagram from "../../../assets/insta.png";
 import Twitter from "../../../assets/twitter.png";
-import MapFrame from "../MapFrame/MapFrame";
 import PetLogo from "../../../assets/pet_logo.png";
 
 const Footer = () => {
 
     return (
         <>
-            
-            <MapFrame />
             <footer className="text-center text-lg-start text-muted backgroundImage mt-0">
                 <hr className="mb-0 mt-0" />
                 <section className="d-flex justify-content-center justify-content-lg-between p-4">
