@@ -14,7 +14,10 @@ const Home = () => {
 
     return (
         <>
-            <UserList />
+            <Header />
+            <Carousel />
+            <Content />
+            <Footer />
         </>
     );
 };
