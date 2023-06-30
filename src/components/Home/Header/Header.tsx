@@ -27,7 +27,7 @@ const Header = () => {
                                     <a className="nav-link" href="#">Adoção</a>
                                 </li>
                                 <li className="nav-item zoom">
-                                    <a className="nav-link" href="#">Fornecedores</a>
+                                    <a className="nav-link" href="#">Parceiros</a>
                                 </li>
                                 <li className="nav-item zoom">
                                     <a className="nav-link" href="#">Eventos</a>
@@ -43,6 +43,7 @@ const Header = () => {
                                 </li>
                             </ul>
                         </div>
+                        
                     </div>
                 </nav>
             </header>

@@ -9,6 +9,7 @@ import RegisterPage from './Pages/RegisterPage/RegisterPage';
 import AssociateListPage from './Pages/AssociateListPage/AssociateListPage';
 import SupplierListPage from './Pages/SupplierListPage/SupplierListPage';
 import ProtectorListPage from './Pages/ProtectorListPage/ProtectorListPage';
+import AnimalListPage from './Pages/AnimalListPage/AnimalListPage';
 
 const router = createBrowserRouter([
   {
@@ -22,6 +23,10 @@ const router = createBrowserRouter([
   {
     path: "/register",
     element: <RegisterPage />
+  },
+  {
+    path: "/animals",
+    element: <AnimalListPage />
   },
   {
     path: "/associates",

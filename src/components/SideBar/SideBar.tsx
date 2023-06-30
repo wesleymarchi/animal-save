@@ -16,14 +16,10 @@ const SideBar = () => {
                     </a>
                     <ul className="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu">
                         <li className="nav-item">
-                            <a href="#" className="nav-link align-middle px-0 zoom">
-                                <i className="bi bi-home"></i><p className="ms-1 d-none d-sm-inline text-white">Inicio</p>
-                            </a>
+                            <a href="#" className="nav-link align-middle px-0 zoom"><p className="ms-1 d-none d-sm-inline text-white">Inicio</p></a>
                         </li>
                         <li className="nav-item">
-                            <a href="" className="nav-link align-middle px-0 zoom">
-                                <i className="bi bi-home"></i><p className="ms-1 d-none d-sm-inline text-white">Animais</p>
-                            </a>
+                            <Link to="/animals"><a href="" className="nav-link align-middle px-0 zoom"><p className="ms-1 d-none d-sm-inline text-white">Animais</p></a></Link>
                         </li>
                         <li>
                             <a href="#submenu1" data-bs-toggle="collapse" className="nav-link px-0 align-middle zoom">
@@ -36,7 +32,7 @@ const SideBar = () => {
                                     <Link to="/protectors"><a href="" className="nav-link px-4"> <p className="d-none d-sm-inline text-white">Protetores</p></a></Link>
                                 </li>
                                 <li className="zoom">
-                                    <Link to="/suppliers"><a className="nav-link  px-4"> <p className="d-none d-sm-inline text-white">Fornecedores</p></a></Link>
+                                    <Link to="/suppliers"><a className="nav-link  px-4"> <p className="d-none d-sm-inline text-white">Parceiros</p></a></Link>
                                 </li>
                             </ul>
                         </li>
