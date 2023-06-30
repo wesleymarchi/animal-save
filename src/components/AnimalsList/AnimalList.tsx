@@ -18,7 +18,7 @@ const AnimalList = () => {
                     <div className="col py-0 px-0">
                         <article className="container-fluid px-0">
                             
-                            <div className="container-lg px-0">
+                            <div className="container-fuid px-0">
                                 
                                     <nav className="navbar navbar-expand-lg">
                                         
