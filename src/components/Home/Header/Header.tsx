@@ -38,6 +38,9 @@ const Header = () => {
                                 <li className="nav-item zoom">
                                     <Link to={"/login"}><a className="nav-link btn btn-outline rounded-1 border border-1 px-2 active">Entrar</a></Link>
                                 </li>
+                                <li className="nav-item zoom">
+                                    <Link to="/register"><a className="nav-link">Cadastrar</a></Link>
+                                </li>
                             </ul>
                         </div>
                     </div>

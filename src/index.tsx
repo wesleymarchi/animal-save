@@ -5,19 +5,26 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import LandingPage from './Pages/LandingPage/LandingPage';
 import LoginPage from './Pages/LoginPage/LoginPage';
+import RegisterPage from './Pages/RegisterPage/RegisterPage';
 
 import ProtectorModal from "./components/ProtectorList/NewProtectorModal/NewProtectorModal"
 import ProtectorList from './components/ProtectorList/ProtectorList';
 import Register from './components/Login/Register/Register';
+import AssociateList from './components/AssociateList/AssociateList';
+import SupplierList from './components/SupplierList/SupplierList';
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Register />
+    element: <LandingPage />
   },
   {
     path: "/login",
     element: <LoginPage />
+  },
+  {
+    path: "/register",
+    element: <RegisterPage />
   },
 ])
 

@@ -29,7 +29,7 @@ const Login = () => {
                         <div className="row mb-4">
                             <div className="col d-flex justify-content-center">
                             <div className="form-check">
-                                <input className="form-check-input" type="checkbox" value="" id="form2Example31" checked />
+                                <input className="form-check-input shadow-none" type="checkbox" value="" id="form2Example31" checked />
                                 <label className="form-check-label"> Lembrar </label>
                             </div>
                             </div>
