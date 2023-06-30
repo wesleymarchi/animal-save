@@ -6,10 +6,14 @@ import reportWebVitals from './reportWebVitals';
 import LandingPage from './Pages/LandingPage/LandingPage';
 import LoginPage from './Pages/LoginPage/LoginPage';
 
+import ProtectorModal from "./components/ProtectorList/NewProtectorModal/NewProtectorModal"
+import ProtectorList from './components/ProtectorList/ProtectorList';
+import Register from './components/Login/Register/Register';
+
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <LandingPage />
+    element: <Register />
   },
   {
     path: "/login",
