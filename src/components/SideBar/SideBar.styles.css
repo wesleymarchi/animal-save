@@ -30,3 +30,12 @@ nav li {
 .profileImage {
     object-fit: cover;
 }
+
+h4, h5, p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 399;
+}
+
+hr {
+    color: #a18117;
+}
