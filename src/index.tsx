@@ -12,6 +12,9 @@ import ProtectorList from './components/ProtectorList/ProtectorList';
 import Register from './components/Login/Register/Register';
 import AssociateList from './components/AssociateList/AssociateList';
 import SupplierList from './components/SupplierList/SupplierList';
+import AssociateListPage from './Pages/AssociateListPage/AssociateListPage';
+import SupplierListPage from './Pages/SupplierListPage/SupplierListPage';
+import ProtectorListPage from './Pages/ProtectorListPage/ProtectorListPage';
 
 const router = createBrowserRouter([
   {
@@ -25,6 +28,18 @@ const router = createBrowserRouter([
   {
     path: "/register",
     element: <RegisterPage />
+  },
+  {
+    path: "/associates",
+    element: <AssociateListPage />
+  },
+  {
+    path: "/protectors",
+    element: <ProtectorListPage />
+  },
+  {
+    path: "/suppliers",
+    element: <SupplierListPage />
   },
 ])
 
