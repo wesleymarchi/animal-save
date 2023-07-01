@@ -47,8 +47,8 @@ const Register = () => {
                         </div>
 
                         <div className="form-outline my-0 mb-3 col d-flex">
-                            <input type="text" id="cpfCNPJRegister" placeholder="CNPF/CNPJ" className="form-control border border-1 border-warning shadow-none pe-4 me-0" />
-                            <select className="form-select form-select-sm border border-1 border-warning shadow-none ms-1" aria-label=".form-select-sm example">
+                            <input type="text" id="cpfCNPJRegister" placeholder="CNPF/CNPJ" className="form-control border border-1 border-warning shadow-none pe-4 me-1" />
+                            <select className="form-select form-select-sm border border-1 border-warning shadow-none ms-0 ps-3" aria-label=".form-select-sm example">
                                 <option selected>Gênero</option>
                                 <option value="feminino">Feminino</option>
                                 <option value="masculino">Masculino</option>
